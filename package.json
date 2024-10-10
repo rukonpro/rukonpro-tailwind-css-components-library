@@ -1,7 +1,20 @@
 {
   "name": "rukonpro-tailwind-css-components-library",
-  "version": "0.1.0",
-  "private": true,
+  "version": "1.0.0",
+  "description": "A reusable Tailwind CSS component library built with Next.js",
+  "main": "index.js",
+  "license": "MIT",
+  "author": "Rukon Uddin",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rukonpro/rukonpro-tailwind-css-components-library"
+  },
+  "keywords": [
+    "tailwindcss",
+    "nextjs",
+    "react",
+    "component-library"
+  ],
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -18,5 +31,8 @@
     "tailwindcss": "^3.4.1",
     "eslint": "^8",
     "eslint-config-next": "14.2.15"
-  }
+  },
+  "files": [
+    "components/"
+  ]
 }
